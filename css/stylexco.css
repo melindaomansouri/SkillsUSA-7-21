@@ -77,6 +77,12 @@ padding: 40px 0px;
     text-align: justify;
 }
 
+.icon {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 868px) {
     .navbar .menu-list {
         position: fixed;
