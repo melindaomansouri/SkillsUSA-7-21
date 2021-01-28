@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #1b1b1b;
+}
+
 .content {
     max-width: 1250px;
     margin: auto;
@@ -75,6 +79,7 @@ padding: 40px 0px;
 .about .title {
     font-size: 35px;
     font-weight: 700;
+    justify-content: center;
 }
 
 .about p {
@@ -87,7 +92,6 @@ padding: 40px 0px;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
-
 }
 
 .icon.cancel-btn {
@@ -98,6 +102,11 @@ padding: 40px 0px;
     position: absolute;
     right: 30px;
     top: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 200px;
 }
 
 @media (max-width: 868px) {
