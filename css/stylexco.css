@@ -6,13 +6,21 @@
 }
 
 body{
-    background-color: #1b1b1b;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
 }
 
 .content {
-    max-width: 1250px;
+    max-width: 100%;
     margin: auto;
-    padding: 0px 30px;
+    padding: 0px 10px;
+    color: white;
+}
+.all-content {
+    padding-top: 20px;
+    width: 100%;
+    color: black;
 }
 
 .navbar {
@@ -26,7 +34,7 @@ body{
 
 .navbar.sticky {
     padding: 10px 0px;
-    background: #1b1b1b;
+    background: #3a3a36;
 }
 
 .navbar .content {
@@ -109,6 +117,11 @@ padding: 40px 0px;
     max-height: 200px;
 }
 
+.content > .all-content:hover{
+    background:  rgba(231, 224, 224, 0.699);
+    transition: all 0.3s ease-in;
+}
+
 @media (max-width: 868px) {
     
     body.disabledScroll {
@@ -152,4 +165,14 @@ padding: 40px 0px;
         font-size: 23px;
     }
 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.grub {
+    display: flex;
+    justify-content: center;
 }
